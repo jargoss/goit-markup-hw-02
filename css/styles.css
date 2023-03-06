@@ -34,6 +34,10 @@ a {
 
 /* Header */
 
+.header {
+  text-decoration: none;
+}
+
 .header-list {
   font-weight: 500;
   font-size: 16px;
@@ -43,8 +47,9 @@ a {
   color: #2e2f42;
 }
 
-.header-mail,
-.header-tel {
+.header-adress,
+.header-tel,
+.header-mail {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -172,25 +177,32 @@ a {
   color: #e7e9fc;
 }
 
-.nav-buttons {
+.app-btn,
+.all-btn,
+.web-btn,
+.design-btn,
+.mark-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  color: #4d5ae5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.app {
+.app-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.app-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
-  letter-spacing: 0.02em;
-}
-
-.app-name {
-  font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
   letter-spacing: 0.02em;
 }
 
@@ -199,20 +211,6 @@ a {
   line-height: 1.5;
   color: #434455;
   letter-spacing: 0.02em;
-}
-
-.nav-all,
-.nav-web,
-.nav-app,
-.nav-design,
-.nav-mark {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #4d5ae5;
-  cursor: pointer;
 }
 
 .footer {
