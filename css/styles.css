@@ -32,10 +32,21 @@ a {
   color: #4d5ae5;
 }
 
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
 /* Header */
 
 .header {
   text-decoration: none;
+}
+
+.header-studio,
+.header-portfolio,
+.header-contacts {
+  color: #2e2f42;
 }
 
 .header-list {
