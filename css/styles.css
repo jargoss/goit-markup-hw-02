@@ -157,6 +157,13 @@ a {
   letter-spacing: 0.02em;
 }
 
+.wawd-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
 .about-list-item {
   font-size: 16px;
   line-height: 1.5;
@@ -169,6 +176,10 @@ a {
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
+}
+
+.about-title {
+  :hidden ;
 }
 
 .members {
