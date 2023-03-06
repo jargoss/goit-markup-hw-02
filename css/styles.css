@@ -97,7 +97,7 @@ a {
   background-color: #2e2f42;
 }
 
-.hero-sec2 {
+.hero-sec2-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -108,17 +108,19 @@ a {
 
 .hero-sec3-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
 .hero-sec4-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
