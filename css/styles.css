@@ -76,12 +76,37 @@ a {
   background-color: #2e2f42;
 }
 
+.hero-sec2 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sec2-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.sec2-descr {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
 .hero-sec3 {
   font-size: 36px;
   line-height: 1.11;
 }
 
-.sec3-title {
+.sec3-title,
+.sec4-title {
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
