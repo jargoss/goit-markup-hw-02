@@ -47,9 +47,7 @@ a {
   color: #2e2f42;
 }
 
-.header-adress,
-.header-tel,
-.header-mail {
+.header-adress-link {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
