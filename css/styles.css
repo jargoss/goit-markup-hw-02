@@ -50,6 +50,9 @@ a {
   color: #2e2f42;
 }
 
+.header-studio {
+}
+
 .header-adress {
   font-style: normal;
 }
@@ -231,9 +234,6 @@ a {
   color: #4d5ae5;
   letter-spacing: 0.04em;
   cursor: pointer;
-}
-
-.portfolio-list-buttons {
   background-color: #f4f4fd;
 }
 
