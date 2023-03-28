@@ -37,6 +37,7 @@ a {
 
 .link:hover,
 .link:focus {
+  background-color: #404bbf;
   color: #404bbf;
 }
 
