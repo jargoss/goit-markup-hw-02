@@ -1,8 +1,11 @@
+:root 
+
 /* Body */
 
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
 }
 
 .list {
@@ -35,6 +38,7 @@ a {
 .link:hover,
 .link:focus {
   color: #404bbf;
+  background-color: #404bbf;
 }
 
 /* Header */
@@ -87,8 +91,11 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: #4d5ae5;
 }
 
+.about {
+}
 .hero-main {
   background: #2e2f42;
 }
@@ -126,6 +133,10 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.ourteam {
+  background-color: #f4f4fd;
 }
 
 .ourteam-list {
