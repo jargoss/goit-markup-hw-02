@@ -38,7 +38,6 @@ a {
 .link:hover,
 .link:focus {
   color: #404bbf;
-  background-color: #404bbf;
 }
 
 /* Header */
@@ -125,6 +124,10 @@ a {
 }
 
 .about {
+}
+
+.about-title {
+  visibility: hidden;
 }
 
 .about-name {
@@ -218,6 +221,10 @@ a {
   color: #4d5ae5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.portfolio-list-buttons {
+  background-color: #f4f4fd;
 }
 
 .app-name {
