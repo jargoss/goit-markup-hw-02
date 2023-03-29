@@ -37,7 +37,14 @@ a {
 
 .link:hover,
 .link:focus {
+  color: #404bbf;
   background-color: #404bbf;
+}
+
+.btn:hover,
+.btn:focus {;
+  color: #FFFFFF;
+  background-color: #404BBF
 }
 
 /* Header */
@@ -48,9 +55,6 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-
-.header-studio {
 }
 
 .header-adress {
@@ -96,8 +100,6 @@ a {
   background-color: #4d5ae5;
 }
 
-.about {
-}
 .hero-main {
   background: #2e2f42;
 }
@@ -134,9 +136,6 @@ a {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-}
-
-.about {
 }
 
 .about-title {
@@ -234,7 +233,8 @@ a {
   color: #4d5ae5;
   letter-spacing: 0.04em;
   cursor: pointer;
-  background-color: #f4f4fd;
+  background-color: #F4F4FD;
+
 }
 
 .app-name {
