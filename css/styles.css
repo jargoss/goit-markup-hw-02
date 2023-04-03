@@ -42,9 +42,9 @@ a {
 }
 
 .btn:hover,
-.btn:focus {;
+.btn:focus {
   color: #FFFFFF;
-  background-color: #404BBF
+  background-color: #404BBF;
 }
 
 /* Header */
@@ -108,23 +108,25 @@ a {
   background-color: #2e2f42;
 }
 
-.ourteam {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  text-align: center;
+.ourteam {   
   background: #F4F4FD;
 }
 
-
 .ourteam-title {
-  font-weight: 500;
-  font-size: 36px;
-  line-height: 1.11;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2E2F42;
+}
+
+.ourteam-list-item {
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+  background-color: #FFFFFF
 }
 
 .wawd-title {
@@ -133,12 +135,8 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: #FFFFFF;
   text-align: center;
-}
-
-.about-title {
-  visibility: hidden;
 }
 
 .about-name {
@@ -149,17 +147,10 @@ a {
   color: #2e2f42;
 }
 
-.ourteam {
-  background-color: #f4f4fd;
+.about-title {
+  visibility: hidden;
 }
 
-.ourteam-list {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
 .about-descr {
   font-size: 16px;
   line-height: 1.5;
@@ -177,10 +168,11 @@ a {
 }
 
 .ourteam-list {
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #FFFFFF;
 }
 
 .about-list {
@@ -201,7 +193,6 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 .wawd-title {
@@ -212,16 +203,20 @@ a {
 }
 
 .members {
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
-  color: #2e2f42;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
 }
 
 .job {
+  font-weight: 400;
   font-size: 16px;
-  line-height: 1.5;
-  color: #434455;
+  line-height: 24px;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .portfolio-list-item {
