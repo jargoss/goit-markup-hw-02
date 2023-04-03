@@ -129,6 +129,7 @@ color: #2E2F42;
   background-color: #FFFFFF
 }
 
+
 .wawd-title {
   font-weight: 500;
   font-size: 36px;
@@ -137,6 +138,10 @@ color: #2E2F42;
   text-transform: capitalize;
   color: #FFFFFF;
   text-align: center;
+}
+
+.about-title {
+  visibility: hidden;
 }
 
 .about-name {
